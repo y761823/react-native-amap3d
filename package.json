@@ -1,41 +1,79 @@
 {
-  "name": "react-native-amap3d",
-  "version": "1.1.1",
+  "_from": "react-native-amap3d",
+  "_id": "react-native-amap3d@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-5b8DAIGb0AUL/hDOEtrTrNCRZzub32j+0/Geyo9BOM7OiJ+Yar69HZTdsBpBVnw2lFNoHYLMbrmI+R2Fm5QZdQ==",
+  "_location": "/react-native-amap3d",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-amap3d",
+    "name": "react-native-amap3d",
+    "escapedName": "react-native-amap3d",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-amap3d/-/react-native-amap3d-1.1.1.tgz",
+  "_shasum": "15f736907056a5ee451157cd7a948e0931bf8fe1",
+  "_spec": "react-native-amap3d",
+  "_where": "/home/ouyankai/src/morse/driver_app",
+  "author": {
+    "name": "Qiu Xiang",
+    "email": "i@7c00.cc"
+  },
+  "bugs": {
+    "url": "https://github.com/qiuxiang/react-native-amap3d/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "react-native 高德地图组件，支持 Android + iOS",
-  "author": "Qiu Xiang <i@7c00.cc>",
-  "license": "MIT",
-  "keywords": [
-    "react-native",
-    "amap",
-    "maps",
-    "mapview"
-  ],
-  "main": "lib/js",
-  "files": [
-    "lib/js",
-    "lib/android/src",
-    "lib/android/build.gradle",
-    "lib/ios"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/qiuxiang/react-native-amap3d"
-  },
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "run-android": "node node_modules/react-native/local-cli/cli.js run-android",
-    "release-android": "node node_modules/react-native/local-cli/cli.js run-android --variant=release",
-    "log-android": "node node_modules/react-native/local-cli/cli.js log-android",
-    "reload": "adb reverse tcp:8081 tcp:8081 && adb shell input text rr",
-    "run-ios": "node node_modules/react-native/local-cli/cli.js run-ios"
-  },
   "devDependencies": {
     "metro-react-native-babel-preset": "0.51.1",
     "react": "16.6.3",
     "react-native": "0.58.4",
     "react-navigation": "^1.5.11"
   },
+  "files": [
+    "lib/js",
+    "lib/android/src",
+    "lib/android/build.gradle",
+    "lib/ios"
+  ],
+  "homepage": "https://github.com/qiuxiang/react-native-amap3d#readme",
+  "keywords": [
+    "react-native",
+    "amap",
+    "maps",
+    "mapview"
+  ],
+  "license": "MIT",
+  "main": "lib/js",
+  "name": "react-native-amap3d",
   "prettier": {
     "printWidth": 100
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuxiang/react-native-amap3d.git"
+  },
+  "rnpm": {
+    "android": {
+      "sourceDir": "lib/android"
+    }
+  },
+  "scripts": {
+    "log-android": "node node_modules/react-native/local-cli/cli.js log-android",
+    "release-android": "node node_modules/react-native/local-cli/cli.js run-android --variant=release",
+    "reload": "adb reverse tcp:8081 tcp:8081 && adb shell input text rr",
+    "run-android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "run-ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "version": "1.1.1"
 }
